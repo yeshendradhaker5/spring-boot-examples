@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: transactionCommit
+  datasource:
+    url: jdbc:mysql://localhost/testconnectivity
+    username: root
+    password: yeshendra33
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always
+

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: jdbcTemplate_MySQLCustomDataSource
+
+custom:
+  datasource:
+    url: jdbc:mysql://localhost/jdbctemplatemysqlcustomdatasource?useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: yeshendra33
+  postgresql:
+    datasource:
+      url: jdbc:postgresql://localhost/customjdbctemplatedatasource?useLegacyDateTimeCode=false&serverTimezone=UTC
+      username: postgres
+      password: postgres

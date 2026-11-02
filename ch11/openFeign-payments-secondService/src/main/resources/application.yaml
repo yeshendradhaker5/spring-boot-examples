@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: openFeign-payments-secondService
+server:
+  port: 8081

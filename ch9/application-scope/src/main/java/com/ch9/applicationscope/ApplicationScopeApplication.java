@@ -1,0 +1,13 @@
+package com.ch9.applicationscope;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ApplicationScopeApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ApplicationScopeApplication.class, args);
+    }
+
+}

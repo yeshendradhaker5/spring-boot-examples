@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: openFeign-payments-FirstService
+
+
+
+name:
+  service:
+    url: http://localhost:8081

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springData
+  datasource:
+    url: jdbc:mysql://localhost/springdata
+    username: root
+    password: yeshendra33
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always

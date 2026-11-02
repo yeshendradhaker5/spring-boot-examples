@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: webClient
+name:
+  service:
+    url: http://localhost:8081

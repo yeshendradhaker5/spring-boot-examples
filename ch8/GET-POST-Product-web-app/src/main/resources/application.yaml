@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: GET-POST-Product-web-app
