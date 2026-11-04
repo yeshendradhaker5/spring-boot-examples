@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: unitTestingReturnStatement
+  datasource:
+    url: jdbc:mysql://localhost/testReturn
+    username: root
+    password: yeshendra33
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always

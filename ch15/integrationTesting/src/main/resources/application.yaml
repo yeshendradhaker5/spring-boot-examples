@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: integrationTesting
+  datasource:
+    url: jdbc:mysql://localhost/integrationtest
+    username: root
+    password: yeshendra33
+    driver-class-name: com.mysql.cj.jdbc.Driver
